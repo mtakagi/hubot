@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER matakagi
+MAINTAINER mtakagi
 
 RUN npm install -g yo generator-hubot
 RUN adduser --disabled-password --gecos "" yeoman; \
